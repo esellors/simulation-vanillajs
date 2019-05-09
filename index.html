@@ -5,27 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Budget Builder</title>
-    <link rel="stylesheet" type="text/css" href="./reset.css"/>
-    <link rel="stylesheet" type="text/css" href="./index.css"/>
+
+    <link rel="stylesheet" type="text/css" href="./reset.css">
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous|Roboto" rel="stylesheet">
 </head>
 <body>
-    <div id="container-top">
-        <div id="site-title">
 
-        </div>
-        <section id="expense-total">
+        <header>
+            <div>
+                <img src="./assets/piggy_bank.svg">
+                <h1>Budget Builder</h1>
+            </div>
+            <section>
+                <h2>Budget Total: $<span>---</span></h2>
+            </section>
+        </header>
+        
+        <main>
+            <section id="expenses">
+                <h3>Monthly Expenses</h3>
+                <ul>
+                    <li>
+                        <div id="item">Placeholder</div>
+                        <div id="price">$---</div>
+                        <div id="trash">O</div>
+                    </li>
+                </ul>
+            </section>
+            <section id="add-bill">
+                <form>
+                    <h3>Add Bill</h3>
+                    <p>
+                        <label for="name">Name</label>
+                        <input id="name" name="name" type="text"/>
+                    </p>
+                    <p>
+                        <label for="amount">Amount</label>
+                        <input id="amount" name="amount" type="text"/>
+                    </p>
+                    <input type="submit" value="Add">
+                </form>
+            </section>
+        </main>
 
-        </div>
-    </div>
-    
-    <div id="container-bottom">
-        <section id="expenses">
-
-        </section>
-        <section id="add-bill">
-
-        </section>
-    </div>
     <script src="./index.js"></script>
 </body>
 </html>

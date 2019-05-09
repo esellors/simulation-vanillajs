@@ -1,0 +1,114 @@
+/* font styles */
+
+h1, h2 {
+    line-height: 125px;
+}
+
+h1, h3, input {
+    font-family: 'Righteous', cursive;
+}
+
+h2, p, li {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3, input[type="submit"] {
+    font-size: 28px;
+}
+
+p, li {
+    font-size: 22px;
+}
+
+p {
+    line-height: 50px;
+}
+
+/* top of page */
+
+header {
+    height: 125px;
+    padding: 10px 30px;
+    background: #424249;
+    display: flex;
+    justify-content: space-between;
+}
+
+header div {
+    color: #fff;
+    display: flex;
+}
+
+header img {
+    margin-right: 20px;
+}
+
+header section {
+    color: #d5d5d5;
+}
+
+/* bottom of page */
+
+main {
+    padding-top: 50px;
+    background: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+main section {
+    width: 350px;
+    padding: 15px;
+}
+
+main section, input {
+    border-radius: 5px;
+}
+
+#expenses {
+    margin-right: 50px;
+    background: #EFE8E1;
+}
+
+ul {
+    padding-top: 15px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+}
+
+#add-bill {
+    background: #54D2E5;
+}
+
+form p {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+input[type="text"]{
+    width: 245px;
+    height: 32px;
+    align-self: center;
+}
+
+input[type="submit"] {
+    width: 100%;
+    margin-top: 11px;
+    padding: 5px 0;
+    color: #FFF;
+    background: #424249;
+    border: none;
+}
