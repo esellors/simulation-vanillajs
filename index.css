@@ -8,7 +8,7 @@ h1, h3, input {
     font-family: 'Righteous', cursive;
 }
 
-h2, p, li {
+h2, p, li, input[type="text"] {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -36,7 +36,7 @@ p {
 
 header {
     height: 125px;
-    padding: 10px 30px;
+    padding: 10px 40px;
     background: #424249;
     display: flex;
     justify-content: space-between;
@@ -59,7 +59,6 @@ header section {
 
 main {
     padding-top: 50px;
-    background: yellow;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -84,8 +83,24 @@ ul {
 }
 
 li {
+    width: 100%;
+    position: relative;
+    line-height: 40px; 
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+}
+
+#item {
+    position: absolute;
+    left: 0px;
+}
+
+#price {
+    margin-right: 10px;
+}
+
+#expenses img {
+    height: 40px;
 }
 
 #add-bill {
@@ -98,9 +113,10 @@ form p {
     align-content: center;
 }
 
-input[type="text"]{
-    width: 245px;
+input[type="text"] {
+    width: 225px;
     height: 32px;
+    padding-left: 5px;
     align-self: center;
 }
 

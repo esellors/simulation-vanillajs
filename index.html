@@ -18,7 +18,7 @@
                 <h1>Budget Builder</h1>
             </div>
             <section>
-                <h2>Budget Total: $<span>---</span></h2>
+                <h2>Budget Total: $<span>0</span></h2>
             </section>
         </header>
         
@@ -27,9 +27,19 @@
                 <h3>Monthly Expenses</h3>
                 <ul>
                     <li>
-                        <div id="item">Placeholder</div>
-                        <div id="price">$---</div>
-                        <div id="trash">O</div>
+                        <div id="item">Beans</div>
+                        <div id="price">$<span>0</span></div>
+                        <div id="trash">X</div>
+                    </li>
+                    <li>
+                        <div id="item">Tomatoes</div>
+                        <div id="price">$<span>0</span></div>
+                        <div id="trash">X</div>
+                    </li>
+                    <li>
+                        <div id="item">Garlic</div>
+                        <div id="price">$<span>0</span></div>
+                        <div id="trash">X</div>
                     </li>
                 </ul>
             </section>
@@ -38,13 +48,13 @@
                     <h3>Add Bill</h3>
                     <p>
                         <label for="name">Name</label>
-                        <input id="name" name="name" type="text"/>
+                        <input type="text" id="name" name="name" placeholder="Add one bill at a time...">
                     </p>
                     <p>
                         <label for="amount">Amount</label>
-                        <input id="amount" name="amount" type="text"/>
+                        <input type="text" id="amount" name="amount" placeholder="Enter amount without $ sign...">
                     </p>
-                    <input type="submit" value="Add">
+                    <input type="submit" id="submit" name= "submit" value="Add">
                 </form>
             </section>
         </main>
