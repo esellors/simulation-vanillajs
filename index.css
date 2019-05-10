@@ -90,12 +90,12 @@ li {
     justify-content: flex-end;
 }
 
-#item {
+.item {
     position: absolute;
     left: 0px;
 }
 
-#price {
+.price {
     margin-right: 10px;
 }
 
@@ -127,4 +127,8 @@ input[type="submit"] {
     color: #FFF;
     background: #424249;
     border: none;
+}
+
+input[type="submit"], #expenses img {
+    cursor: pointer;
 }
